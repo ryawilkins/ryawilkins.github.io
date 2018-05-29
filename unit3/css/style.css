@@ -1,0 +1,33 @@
+body {
+	background-color: white;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+}
+
+#logo	{
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width: 30%;
+}
+
+#slogan {
+	background-color: white;
+	font-style: italic;
+	color: #808080;
+	text-align: center;
+	font-size: 35px;
+}
+
+h1 {
+	color: #868685;
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+}
+
+p	{
+	color: #000000;
+}

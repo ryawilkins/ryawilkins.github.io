@@ -2,18 +2,26 @@
 
 
 
-h1 {
+h1, h2 {
 	font-family: 'Open Sans', sans-serif;
 	color: #010101; 
-	text-align: center;
-	font-size: 3em;
-	font-weight: lighter;
 	letter-spacing: 0.4em;
-	line-height: 0.15em;
+	text-align: center;
 	margin-left: 0.4em;
-
 }
 
+h1 {
+	font-size: 3em;
+	font-weight: lighter;
+	line-height: 0.15em;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	line-height: 0.25em;
+}
 
 body, html {
 	height: 100%;
@@ -35,7 +43,7 @@ p, ul {
 
 #hero-image	{
 	background-image: url("../images/hero-image.jpg");
-	height: 75%;
+	height: 35%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

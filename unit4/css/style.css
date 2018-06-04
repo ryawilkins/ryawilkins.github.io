@@ -1,46 +1,37 @@
-@import url(https://fonts.googleapis.com/css?family=Maitree|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Open+Sans);
 
 
 
-#firstname {
+h1 {
 	font-family: 'Open Sans', sans-serif;
-	color: #000000; 
+	color: #010101; 
 	text-align: center;
 	font-size: 3em;
 	font-weight: lighter;
 	letter-spacing: 0.4em;
 	line-height: 0.15em;
+	margin-left: 0.4em;
 
 }
 
-#lastname {
-	font-family: 'Open Sans', sans-serif;
-	color: #000000; 
-	text-align: center;
-	font-size: 3em;
-	font-weight: black;
-	letter-spacing: 0.4em;
-	line-height: 0.15em;
-
-}
 
 body, html {
 	height: 100%;
 }
 
 
-
-body {
+p, ul {
 	background-color: white;
 	font-weight: normal;
-	color: #767675; 
-	font-family: 'Maitree', serif;
+	color: #000000; 
+	font-family: 'Merriweather', georgia, serif;
 	margin: 2em;
 	font-size: 1em;
 	line-height: 1.5em;
 	word-spacing: 0.25em;
 
 }
+
 
 #hero-image	{
 	background-image: url("../images/hero-image.jpg");
@@ -57,22 +48,19 @@ body {
 	letter-spacing: 0.15em;
 	background-color: white;
 	text-align: center;
-	font-size: 1.25em;
+	font-size: 0.85em;
 	color: #000000; 
+	margin-left: 2em;
 }
 
 #photo-copyright {
 	font-weight: normal;
 	color: #000000; 
-	font-family: 'Maitree', serif;
-	margin: 1em;
-	font-size: 0.5em;
+	font-family: 'Karma', serif;
+	margin: 4em;
+	font-size: 0.75em;
 	line-height: 1.5em;
 	word-spacing: 0.25em;
-
-}
-
-p	{
-	
+	text-align: right;
 
 }

@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint|Open+Sans);
+
+
+
+h1 {
+	font-family: 'Finger Paint', cursive;
+	color: #000000; 
+	text-align: center;
+	font-size: 5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	line-height: 0.15em;
+
+}
+
+body, html {
+	height: 100%;
+}
+
+
+
+body {
+	background-color: white;
+	font-weight: normal;
+	color: #767675; 
+	font-family: 'Open Sans', cursive;
+	margin: 2em;
+	font-size: 1em;
+	line-height: 1.5em;
+	word-spacing: 0.25em;
+
+}
+
+#hero-image	{
+	background-image: url("../images/hero-image.jpg");
+	height: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#slogan {
+	font-family: 'Finger Paint', cursive;
+	font-weight: lighter;
+	letter-spacing: 0.15em;
+	background-color: white;
+	text-align: center;
+	font-size: 1.25em;
+	color: #000000; 
+}
+
+#photo-copyright {
+	font-weight: normal;
+	color: #000000; 
+	font-family: 'Open Sans', cursive;
+	margin: 1em;
+	font-size: 0.5em;
+	line-height: 1.5em;
+	word-spacing: 0.25em;
+
+}
+
+p	{
+	
+
+}

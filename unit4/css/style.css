@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Finger+Paint|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Maitree|Open+Sans);
 
 
 
 h1 {
-	font-family: 'Finger Paint', cursive;
+	font-family: 'Open Sans', sans-serif;
 	color: #000000; 
 	text-align: center;
 	font-size: 5em;
@@ -24,7 +24,7 @@ body {
 	background-color: white;
 	font-weight: normal;
 	color: #767675; 
-	font-family: 'Open Sans', cursive;
+	font-family: 'Maitree', serif;
 	margin: 2em;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -42,7 +42,7 @@ body {
 }
 
 #slogan {
-	font-family: 'Finger Paint', cursive;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	letter-spacing: 0.15em;
 	background-color: white;
@@ -54,7 +54,7 @@ body {
 #photo-copyright {
 	font-weight: normal;
 	color: #000000; 
-	font-family: 'Open Sans', cursive;
+	font-family: 'Maitree', serif;
 	margin: 1em;
 	font-size: 0.5em;
 	line-height: 1.5em;

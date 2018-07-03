@@ -261,17 +261,31 @@ a:hover {
 
 
 @media only screen and (max-width: 480px) {
-  h1, nav {
-    display: block;
-    text-align: center;
-  }
-  h2 {
-    font-size: 1em;
-    display: inline;
-  }
-  p, ul {
-    margin: 1.8em .6em 0;
-  }
+  	/*h1, nav {
+   		display: block;
+  		text-align: center;
+ 	}
+  	h2 {
+    	font-size: 1em;
+    	display: inline;
+  	}
+  	p, ul {
+    	margin: 1.8em .6em 0;
+  	}*/
+
+	.left_text {
+		float: none;
+		width: 90%;
+	}
+
+	.right_image {
+		float: none;
+		width: 90%;
+	}
+  	body {
+		font-size: 12px;
+		
+	}
   /*
   li {
     width: 80%;
@@ -298,6 +312,32 @@ a:hover {
   */
 }
 
+@media only screen and (max-width: 400px) {
+  	/*h1, nav {
+   		display: block;
+  		text-align: center;
+ 	}
+  	h2 {
+    	font-size: 1em;
+    	display: inline;
+  	}
+  	p, ul {
+    	margin: 1.8em .6em 0;
+  	}*/
 
+	.left_text {
+		float: none;
+		width: 90%;
+	}
+
+	.right_image {
+		float: none;
+		width: 90%;
+	}
+  	body {
+		font-size: 10px;
+		
+	}
+}
 
 

@@ -11,6 +11,10 @@ header {
 	padding: 0;
 }
 
+#logo-and-slogan {
+	width: 100%;
+}
+
 #logo {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
@@ -236,7 +240,7 @@ a:hover {
   } */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 	.left_text {
 		float: none;
 		width: 90%;
@@ -245,6 +249,11 @@ a:hover {
 	.right_image {
 		float: none;
 		width: 90%;
+	}
+
+	body {
+		font-size: 14px;
+		
 	}
 }
 

@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Open+Sans);
+
+body {
+	/* set default font size below that is used for em reference */
+	font-size: 20px;
+}
+
+header {
+	background: rgba(100,150,150,0.4);
+	border-bottom: 0.1em #000000	solid;
+	padding: 0;
+}
+
+#logo {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0.6em;
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: 0.5em;
+	border-bottom: 0.025em #000000 solid;
+}
+
+#slogan {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+	font-size: 0.7em;
+	color: #000000; 
+	text-align: center;
+	padding-bottom: 0.75em;
+}
+
+
+img {
+	display: 	block;
+	width: 100%;
+	margin: 	0 auto;
+}
+nav {
+	background-color: #FFFFFF;
+	border: 0.3em #FFFFFF	solid;
+	
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+article {
+	background-color: #FFFFFF;
+	border: 0.3em #FFFFFF	solid;
+	padding: 1em;
+}
+
+aside {
+	background-color: #888888;
+	border: 0.3em black	solid;
+	padding: 1em;
+}
+
+footer {
+	background-color: #FFFFFF;
+	border: 0.3em #FFFFFF	solid;
+	padding: 1em;
+	text-align: center;
+}
+		
+/* div, section {
+	/*background-color: #FFFFFF;
+	border: 0.3em #FFFFFF	solid;
+	padding: 1em;
+}
+
+*/
+
+
+span {
+	font-family: 'Open Sans', sans-serif;
+	color: #000; 
+	letter-spacing: 0.3em; 
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 0 0.2em;
+	background: rgba(100,150,150,0.4);
+}
+
+strong {
+	font-weight: bolder;	
+}
+
+h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #000; 
+	letter-spacing: 0.4em;
+	text-align: center;
+	margin: 0;
+	padding: 1em 1em 0 1em;
+}
+
+h1 {
+	font-size: 4em;
+	line-height: 0.15em;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+nav {
+	font-weight: normal;
+	font-family: 'Merriweather', georgia, serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	word-spacing: 0.4em;
+	padding: 0;
+}
+
+p, ul {
+	display: block;
+	font-weight: normal;
+	font-family: 'Merriweather', georgia, serif;
+	/*margin: 2em;*/
+	font-size: 1em;
+	line-height: 1.5em;
+	word-spacing: 0.25em;
+	padding: 0;
+	list-style: disc;
+}
+
+a {
+	margin-right: 2em;
+}
+
+a:hover {
+	padding: 0.2em;
+	background: rgba(100,150,150,0.4);
+}
+
+/* container which holds image and text for overlay */
+.image_text_container {
+	position: relative;
+	clear: both;
+}
+
+.text_block {
+	background-color: transparent;
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	margin: 0;
+	border: none;
+}
+
+
+.photo-copyright {
+	font-weight: normal;
+	color: #000000; 
+	font-family: 'Merriweather', georgia, serif;
+	margin: 0;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	word-spacing: 0.25em;
+	text-align: right;
+}
+
+
+/*.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}*/
+
+
+.left_text {
+	background-color: #FFFFFF;
+	border: 0.3em #FFFFFF solid;
+	padding: 1em;
+	float: left;
+	width: 45%;
+}
+
+.right_image {
+	background-color: #FFFFFF;
+	border: 0.3em #FFFFFF solid;
+	padding: 1em;
+	float: right;
+	width: 45%;
+}
+
+#wrapper {
+	width: 100%;
+
+}
+
+
+
+
+
+#nav_top {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #000;
+	background: #FFFFFF;
+	list-style: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.left_text {
+		float: none;
+		width: 90%;
+	}
+
+	.right_image {
+		float: none;
+		width: 90%;
+	}
+  /*nav a {
+      margin: 0 1.6em .75em 0;
+  }
+  img {
+    width: 320px;
+  }
+  #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  } */
+}
+
+@media only screen and (max-width: 800px) {
+	.left_text {
+		float: none;
+		width: 90%;
+	}
+
+	.right_image {
+		float: none;
+		width: 90%;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1em;
+    display: inline;
+  }
+  p, ul {
+    margin: 1.8em .6em 0;
+  }
+  /*
+  li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;
+  }
+  
+  nav a {
+    margin: 0 1em 1em;
+  }
+  img {
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+  #services {
+    float: none;
+    font-size: 1.4em;
+  }
+  */
+}
+
+
+
+

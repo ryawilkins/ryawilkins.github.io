@@ -7,6 +7,8 @@
 	<title>rWILKINS</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--add below for media queries-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
@@ -20,16 +22,14 @@
 			and hero image with slogan across -->
 		<header>
 
-			<div id="logo">
-				<h1>r<strong>WILKINS</strong></h1>
+			<div>
+				<h1 id="logo">r<strong>WILKINS</strong></h1>
+				<p id="slogan">pursuit of the ultimate cycling machine</p>	
 			</div>
 
 			<!-- show the hero image with slogan across-->
-			<div id="hero_main" class="image_text_container">
+			<div id="hero_main">
 				<img src="images\hero-image.jpg" alt="View of bicycle on gravel road">
-				<div class="text_block">
-					<p id="slogan">pursuit of the ultimate cycling machine</p>	
-				</div>
 			</div>
 			
 			<nav id="nav_top" class="clearfix">
@@ -45,11 +45,23 @@
 
 		<!-- main: contains intro article and other articles which will appear as pages later-->
 		<main>
-			<article id="how_it_came_about">
-				<h2>How this came about</h2>
-		
-				<p>I wanted <span>one bike</span> that does it all; gravel, road, fast, comfortable. That takes the <span>best</span> of bicycle engineering and technology, with a view to where things are heading. That won't be obsolete. That will <span>ride in rain or sunshine</span> and put a big smile across my face. This is the <span>journey</span>.</p>
+			
 
+			<article id="fit_for_a_frame" class="clearfix">
+				<h2>Fit for a frame</h2>
+				<div class="left_text">		
+					<p>So you want a <span>custom</span> frame that does it all; gravel, road, fast, comfortable. So, you need a bike fit!</p>
+					<ul>
+						<li>Position of bike handlebars, relative to seat and crank axle</li>
+						<li>Pedaling</li>
+						<li>How do you know the body position is <span>right</span>. Use the no hands test!</li>
+						<li>Analysis to the nth degree (graphs of pedalling, photo etc)</li>
+					</ul>
+				</div>
+				<div class="right_image">
+					<img src="images\bike-pos.png" alt="Bike geometry">
+					<p class="photo-copyright">Photo Copyright: Baum</p>
+				</div>
 			</article>
 
 			

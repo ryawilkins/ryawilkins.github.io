@@ -7,6 +7,8 @@
 	<title>rWILKINS</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--add below for media queries-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
@@ -20,16 +22,14 @@
 			and hero image with slogan across -->
 		<header>
 
-			<div id="logo">
-				<h1>r<strong>WILKINS</strong></h1>
+			<div>
+				<h1 id="logo">r<strong>WILKINS</strong></h1>
+				<p id="slogan">pursuit of the ultimate cycling machine</p>	
 			</div>
 
 			<!-- show the hero image with slogan across-->
-			<div id="hero_main" class="image_text_container">
+			<div id="hero_main">
 				<img src="images\hero-image.jpg" alt="View of bicycle on gravel road">
-				<div class="text_block">
-					<p id="slogan">pursuit of the ultimate cycling machine</p>	
-				</div>
 			</div>
 			
 			<nav id="nav_top" class="clearfix">
@@ -45,11 +45,27 @@
 
 		<!-- main: contains intro article and other articles which will appear as pages later-->
 		<main>
-			<article id="how_it_came_about">
-				<h2>How this came about</h2>
-		
-				<p>I wanted <span>one bike</span> that does it all; gravel, road, fast, comfortable. That takes the <span>best</span> of bicycle engineering and technology, with a view to where things are heading. That won't be obsolete. That will <span>ride in rain or sunshine</span> and put a big smile across my face. This is the <span>journey</span>.</p>
+			
 
+			<article id="its_here" class="clearfix">
+				<h2>It's here</h2>
+				<div class="left_text">
+					<p>It took a while, but it was <span>worth it</span>. Here it is in all the <span>glory</span>, thanks to Baum. Key stats:</p>
+					<ul>
+						<li>Fully custom ti frame, all tubes custom butted, enve carbon seat post, 3T ARX II Team stem, 3T carbon stealth Ergonova bars. Custom painted. </li>
+						<li>Shimano Ultegra Di2, 52, 36 rings with 11-28 cassette.</li>
+						<li>Enve 4.5 SES AR rims with Sapian CX Ray spokes and DT Swiss 240S Centerlock hubs. Custom Syntace thru axle. Tubeless tyres. <span>Butter</span> on wheels</li>
+						<li>Custom King Ti bottle cages</li>
+					</ul>
+				</div>
+				<div class="right_image">
+					<img src="images\bike.png" alt="Road disc bicycle">
+					<p class="photo-copyright">Photo Source/Copyright: Derek Yarra, Above Category</p>
+					<img src="images\bike-frontend.png" alt="Road disc bicycle front end">
+					<p class="photo-copyright">Photo Source/Copyright: Derek Yarra, Above Category</p>
+
+
+				</div>			
 			</article>
 
 			

@@ -35,11 +35,8 @@ header {
 	padding-bottom: 0.75em;
 }
 
-
 img {
-	display: 	block;
 	width: 100%;
-	margin: 	0 auto;
 }
 
 #nav_top {
@@ -135,6 +132,7 @@ p, ul {
 
 a:hover {
 	border-bottom: 3px rgb(0,0,0) solid;
+
 	
 }
 
@@ -166,14 +164,14 @@ a:hover {
 }
 
 
-.clearfix:after {
+/*.clearfix:after {
 	visibility: hidden;
 	display: block;
 	content: " ";
 	clear: both;
 	height: 0;
 	font-size: 0;
-}
+}*/
 
 
 .left_text {

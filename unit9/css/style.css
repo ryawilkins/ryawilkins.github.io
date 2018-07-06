@@ -209,15 +209,27 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 901px) {
+	#hero-image {
+		width: 800px;
+		margin: auto;
+	}
+
+	article {
+		margin: auto;
+		width: 800px;
+	}
+
 	.left_text {
 		float: none;
-		width: 90%;
+		margin: auto;
+		width: 800px;
 	}
 
 	.right_image {
 		float: none;
-		width: 90%;
+		margin: auto;
+		width: 800px;
 	}
 
 	/*#logo-and-slogan {
@@ -241,7 +253,7 @@ a:hover {
   } */
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
 	.left_text {
 		float: none;
 		width: 90%;

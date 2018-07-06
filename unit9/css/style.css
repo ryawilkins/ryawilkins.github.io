@@ -11,8 +11,8 @@ header {
 }
 
 #logo-and-slogan {
-	padding: 2% 33% 2% 33%;
-	width: 34%;
+	padding: 2% 40% 2% 40%;
+	width: 20%;
 	border-bottom: 1px rgb(230,230,230) solid;
 }
 
@@ -222,11 +222,11 @@ a:hover {
 		width: 90%;
 	}
 
-	#logo-and-slogan {
+	/*#logo-and-slogan {
 		padding: 2% 25% 2% 25%;
 		width: 50%;
 		border-bottom: 1px rgb(230,230,230) solid;
-	}
+	}*/
 	body {
 		font-size: 14px;
 		
@@ -258,8 +258,8 @@ a:hover {
 		display: inline-block;
 	}*/
 	#logo-and-slogan {
-		padding: 2% 20% 2% 20%;
-		width: 60%;
+		padding: 2% 35% 2% 35%;
+		width: 30%;
 		border-bottom: 1px rgb(230,230,230) solid;
 	}
 	body {
